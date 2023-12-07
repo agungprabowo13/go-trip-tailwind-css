@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: "Poppins"
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply py-2 px-5 rounded text-white bg-[#4564E5] hover:bg-blue-900 transition-all;
+}
+.subtitle {
+    @apply mb-2 text-[#42C5B6] font-semibold
+}
+nav ul li a {
+    @apply text-gray-700 hover:text-blue-500
+}
+section{
+    @apply py-16 px-5 md:px-24
+}
