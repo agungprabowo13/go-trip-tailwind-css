@@ -8,9 +8,9 @@
 </head>
 <body>
     <!-- Navigasi -->
-    <nav class="flex justify-between px-20 py-6 items-center">
+    <nav class="flex justify-between px-10 md:px-20 py-6 items-center">
         <a href="#"><img src="../dist/images/logo.png" alt=""></a>
-        <ul class="flex gap-4">
+        <ul class="hidden md:flex gap-4">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Packages</a></li>
@@ -21,7 +21,7 @@
     </nav>
     <!-- End Navigasi -->
     <!-- Hero -->
-    <section class="flex gap-10 items-center px-20 py-12 bg-[#FBFBFB]">
+    <section class="flex-col md:flex-row md:flex gap-10 items-center px-10 md:px-20 py-12 bg-[#FBFBFB]">
         <img src="../dist/images/header-image.png" alt="Header Image" class="w-full">        
         <div>
             <p class="subtitle">Book Now</p>
@@ -32,11 +32,11 @@
     </section>
     <!-- End Hero -->
     <!-- Service -->
-    <section class="text-center p-20">
+    <section class="text-center p-10 md:p-20">
         <p class="subtitle">3 steps for the perfect trip</p>
         <h1 class="title mt-2 mb-4">Find Travel Perfection</h1>
         <p class="description max-w-md mx-auto">Naturally head of the class when it comes to luxury travel planning because we do more homework than anyone else.</p>
-        <div class="grid grid-cols-3 gap-5 tiga-kolom mt-14">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 tiga-kolom mt-14">
             <div>
                 <img src="../dist/images/service-1.png" alt="">
                 <h2>Tell us what you want to do</h2>
@@ -56,18 +56,18 @@
     </section>
     <!-- End Service -->
     <!-- Location -->
-    <section class="p-20 bg-[#FBFBFB]">
-        <div class="flex justify-between">
+    <section class="p-10 md:p-20 bg-[#FBFBFB]">
+        <div class="flex flex-col justify-between">
             <div>
                 <p class="subtitle">Location</p>
                 <h1 class="title mt-2 mb-3">Suggested Location</h1>
                 <p class="description max-w-xl">Naturally head of the class when it comes to luxury travel planning because we do more homework than anyone else.</p>
             </div>
-            <div class="flex items-end">
+            <div class="flex items-end mt-4 md:mt-0">
                 <a href="#" class="btn">More ></a>
             </div>
         </div>
-        <div class="grid grid-cols-3 gap-5 tiga-gambar mt-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 tiga-gambar mt-10">
             <div style="background-image: url(../dist/images/ulun-danu.png);" class="relative h-[500px] bg-cover rounded-xl">
                 <div class="mx-auto w-3/4 bg-black opacity-70 mt-96 h-20 flex text-white p-4 justify-between rounded">
                     <div>
@@ -105,5 +105,10 @@
         </div>
     </section>
     <!-- End Location -->
+    <!-- Testimonials -->
+    <section >
+        
+    </section>
+    <!-- End Testimonials -->
 </body>
 </html>
