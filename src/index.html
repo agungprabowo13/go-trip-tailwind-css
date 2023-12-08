@@ -9,13 +9,16 @@
 <body>
     <!-- Navigasi -->
     <nav class="flex justify-between px-10 md:px-20 py-6 items-center">
+        <a href="" class="md:hidden fill-blue-600 scale-125" id="hamburger">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+        </a>
         <a href="#"><img src="../dist/images/logo.png" alt=""></a>
-        <ul class="hidden md:flex gap-4">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Packages</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">FAQs</a></li>
+        <ul class="hidden md:flex gap-4 absolute top-20 bg-white left-0 px-10 w-full py-6" id="menu">
+            <li class="mb-2"><a href="#">Home</a></li>
+            <li class="mb-2"><a href="#">About</a></li>
+            <li class="mb-2"><a href="#">Packages</a></li>
+            <li class="mb-2"><a href="#">Contact Us</a></li>
+            <li class="mb-2"><a href="#">FAQs</a></li>
         </ul>
         <a href="#" class="btn">Register</a>
     </nav>
@@ -68,8 +71,8 @@
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-5 tiga-gambar mt-10">
-            <div style="background-image: url(../dist/images/ulun-danu.png);" class="relative h-[500px] bg-cover rounded-xl">
-                <div class="mx-auto w-3/4 bg-black opacity-70 mt-96 h-20 flex text-white p-4 justify-between rounded">
+            <div style="background-image: url(../dist/images/ulun-danu.png);" class="relative min-h-[500px] bg-cover rounded-xl">
+                <div class="mx-auto w-3/4 bg-black opacity-70 mt-96 min-h-20 flex text-white p-4 justify-between rounded">
                     <div>
                         <h2 class="font-semibold text-lg">Ulun Danu</h2>
                         <p class="text-slate-300 text-sm">Bali, Indonesia</p>
@@ -79,8 +82,8 @@
                     </div>
                 </div>
             </div>
-            <div style="background-image: url(../dist/images/Rialto\ Bridge\ \(2\).png);" class="relative h-[500px] bg-cover rounded-xl">
-                <div class="mx-auto w-3/4 bg-black opacity-70 mt-96 h-20 flex text-white p-4 justify-between rounded">
+            <div style="background-image: url(../dist/images/Rialto\ Bridge\ \(2\).png);" class="relative min-h-[500px] bg-cover rounded-xl">
+                <div class="mx-auto w-3/4 bg-black opacity-70 mt-96 min-h-20 flex text-white p-4 justify-between rounded">
                     <div>
                         <h2 class="font-semibold text-lg">Rialto Bridge</h2>
                         <p class="text-slate-300 text-sm">Venezia, Italy</p>
@@ -90,8 +93,8 @@
                     </div>
                 </div>
             </div>
-            <div style="background-image: url(../dist/images/Dubai\ \(2\).png);" class="relative h-[500px] bg-cover rounded-xl">
-                <div class="mx-auto w-3/4 bg-black opacity-70 mt-96 h-20 flex text-white p-4 justify-between rounded">
+            <div style="background-image: url(../dist/images/Dubai\ \(2\).png);" class="relative min-h-[500px] bg-cover rounded-xl">
+                <div class="mx-auto w-3/4 bg-black opacity-70 mt-96 min-h-20 flex text-white p-4 justify-between rounded">
                     <div>
                         <h2 class="font-semibold text-lg">Dubai</h2>
                         <p class="text-slate-300 text-sm">Uni Emirates Arab</p>
@@ -159,16 +162,19 @@
             </div>
            
         </div>
-        <div class="description flex justify-between py-10 items-center">
+        <div class="description flex justify-between py-10  text-sm">
             <p>
                 @2023 GoTrip. All rights reserved
             </p>
-            <ul class="flex flex-col md:flex-row gap-0 md:gap-5 ">
+            <ul class="flex flex-col md:flex-row gap-2 md:gap-5 ">
                 <li>Term & Aggrements</li>
                 <li>Privacy Policy</li>
             </ul>
         </div>
     </footer>
     <!-- End Footer -->
+    <script src="script.js">
+        
+    </script>
 </body>
 </html>
