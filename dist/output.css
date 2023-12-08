@@ -1025,6 +1025,10 @@ ul li a:hover{
 }
 
 @media (min-width: 768px){
+  .md\:top-0{
+    top: 0px
+  }
+
   .md\:mx-auto{
     margin-left: auto;
     margin-right: auto
@@ -1058,6 +1062,10 @@ ul li a:hover{
     gap: 1.25rem
   }
 
+  .md\:bg-transparent{
+    background-color: transparent
+  }
+
   .md\:p-20{
     padding: 5rem
   }
@@ -1065,6 +1073,11 @@ ul li a:hover{
   .md\:px-20{
     padding-left: 5rem;
     padding-right: 5rem
+  }
+
+  .md\:px-0{
+    padding-left: 0px;
+    padding-right: 0px
   }
 
   .md\:pt-10{
