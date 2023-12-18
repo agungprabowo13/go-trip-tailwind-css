@@ -73,9 +73,6 @@ const articleData = [
         konten : 'Dubai (Arab: دبي, translit. Dubayy [dʊˈbajj]) adalah kota terpadat di negara Uni Emirat Arab dan merupakan ibukota Emirat Dubai. Kota ini terletak di sepanjang pantai tenggara Jazirah Arab dan di selatan teluk Persia, Kotamadya Dubai disebut Kota Dubai untuk membedakannya dari Emirat Dubai. Dubai adalah salah satu tujuan pariwisata paling populer di dunia.[5] Kota ini memiliki hotel bintang lima terbanyak kedua di dunia[6] dan juga bangunan tertinggi di dunia, Burj Khalif'
     }
 ]
-
-
-
 for (let i = 0; i < packagesData.length; i++) {
     packages.innerHTML += 
     `
@@ -128,5 +125,3 @@ orderBox.getElementsByTagName('h2')[0].innerHTML = articleData[0].price
         artikelBox.getElementsByTagName('p')[4].innerHTML = articleData[2].konten
         orderBox.getElementsByTagName('h2')[0].innerHTML = articleData[2].price
     })
-
-docume
