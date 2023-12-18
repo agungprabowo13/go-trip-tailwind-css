@@ -6,7 +6,6 @@ hamburger.addEventListener('click', function () {
 });
 
 const locations = document.getElementById('locations')
-
 const locationsData = [
     {
         title : 'Ulun Danu',
@@ -66,22 +65,3 @@ for (let i = 0; i < 3; i++) {
     </a>
     `
 }
-
-// locationsData.forEach(location => {
-//     locations.innerHTML += `
-//     <a href="./article.html">
-//         <div style="background-image: url(../dist/images/${location.imageSource});" class="relative min-h-[500px] bg-cover rounded-xl">
-//             <div class="w-3/4 flex text-white p-4 justify-between rounded bottom-4 right-0 left-0 mx-auto bg-black/30 min-h-[100px] absolute backdrop-blur-xl ">
-//                 <div>
-//                     <h2 class="font-semibold text-lg">${location.title}</h2>
-//                     <p class="text-slate-300 text-sm">${location.location}</p>
-//                 </div>
-//                 <div class="">
-//                     <img src="../dist/images/Frame 15.png" alt="" class="mb-3">
-//                     <p>${location.price}</p>
-//                 </div>
-//             </div>
-//         </div>
-//     </a>
-//     `
-// });
